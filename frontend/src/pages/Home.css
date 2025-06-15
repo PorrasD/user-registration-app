@@ -1,0 +1,37 @@
+.homepage-container {
+  background-image: url('https://img.freepik.com/free-vector/solar-system-science-education_1308-89626.jpg?semt=ais_hybrid&w=740');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.button-group {
+  margin-top: 2rem;
+}
+
+.home-button {
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #444;
+}

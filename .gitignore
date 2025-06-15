@@ -1,12 +1,6 @@
-# Ignore Python virtual environment
 venv/
-
-# Ignore Python bytecode and cache
 __pycache__/
 *.pyc
-
-# Ignore environment variables
 .env
-
-# Ignore VS Code settings folder
 .vscode/
+instance/dev.db
